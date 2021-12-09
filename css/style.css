@@ -1,0 +1,36 @@
+/* reset css */
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f1f1f1;
+	height: 100vh;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.btn {
+	display: block;
+	margin: 100px auto 50px;
+	padding: 15px 20px;
+	font-size: 20px;
+}
+
+.modal {
+	width: 40%;
+	min-width: 300px;
+	max-width: 500px;
+	background: linear-gradient(to right, rgb(84, 185, 84), rgb(51, 136, 55));
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 20px;
+	line-height: 26px;
+	border-radius: 3px;
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+	display: none;
+}
