@@ -8,7 +8,9 @@
 }
 
 body {
-	background: #f1f1f1;
+	background-color: #ff3cac;
+	background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+
 	height: 100vh;
 	font-family: arial, helvetica, sans-serif;
 }
@@ -24,12 +26,13 @@ body {
 	width: 40%;
 	min-width: 300px;
 	max-width: 500px;
-	background: linear-gradient(to right, rgb(84, 185, 84), rgb(51, 136, 55));
+	background-color: #4158d0;
+	background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
 	margin: 0 auto;
 	padding: 20px;
 	font-size: 20px;
 	line-height: 26px;
-	border-radius: 3px;
+	border-radius: 10px;
 	opacity: 0;
 	transition: opacity 0.2s ease-in-out;
 	display: none;
